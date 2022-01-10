@@ -1,0 +1,22 @@
+  /* ===== Header CSS ===== */
+
+  .header-container {
+      margin-top: 80px;
+  }
+
+  .header-container>h1 {
+      text-align: center;
+      cursor: pointer;
+  }
+
+  .header-container>h2 {
+      font-size: 23px;
+      text-align: center;
+      color: #fff;
+      font-weight: normal;
+  }
+
+  .header-container>h2>a {
+      color: rgb(255, 168, 222);
+      padding: 0px;
+  }

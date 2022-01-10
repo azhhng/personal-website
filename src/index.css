@@ -1,0 +1,124 @@
+  /* ===== Index CSS ===== */
+
+  body {
+      font-family: source-code-pro, Consolas, monospace;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* background: #911021; */
+      background: #004FF0;
+      cursor: default;
+  }
+
+  .right-container {
+      width: 800px;
+      padding: 0px 20px;
+  }
+
+  .right-container>h3 {
+      text-align: right;
+  }
+
+  .left-container {
+      margin-top: 30px;
+      width: 800px;
+      padding: 0px 20px;
+  }
+
+  a {
+      cursor: pointer;
+      color: rgb(255, 168, 222)
+  }
+
+  a:hover {
+      background-color: #302747;
+      cursor: pointer;
+  }
+
+  h1 {
+      font-family: monospace;
+      letter-spacing: 2px;
+      font-size: 35px;
+      color: #ffffff;
+      font-weight: normal;
+  }
+
+  h2 {
+      font-size: 23px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-weight: normal;
+  }
+
+  h3 {
+      font-size: 18px;
+      color: #fff;
+      letter-spacing: 0.5;
+      font-weight: normal;
+  }
+
+  h4 {
+      color: #fff;
+      font-family: monospace;
+      font-weight: normal;
+      font-size: 16px;
+  }
+
+  /* ===== Project Pages' CSS ===== */
+
+  .project-container {
+      position: fixed;
+      margin-top: 10px;
+      left: 50%;
+      transform: translate(-50%, 0%);
+  }
+
+  .project-container>.explanation-container>ul>li {
+      font-family: Consolas;
+      color: #fff;
+      letter-spacing: 0.5;
+      font-size: 18px;
+  }
+
+  .project-container>h2 {
+      text-align: center;
+  }
+
+  .project-container>.reason-container {
+      border: 1px solid #fff;
+      padding: 1px 15px;
+      line-height: 25px;
+      cursor: pointer;
+  }
+
+  .project-container>.explanation-container {
+      padding: 4px 5px;
+      border: 1px solid #fff;
+      line-height: 30px;
+      color: #fff;
+  }
+
+  .project-container>.technologies-container>h3>span {
+      color: rgb(129, 49, 98);
+  }
+
+  .project-container>.technologies-container>h3 {
+      background-color: rgb(255, 168, 222);
+      color: rgb(70, 1, 1);
+      padding: 6px 15px;
+  }
+
+  .project-container>.next-link {
+      display: inline;
+      float: right;
+      bottom: 0px;
+      margin-top: 50px;
+  }
+
+  ::-moz-selection {
+      /* Code for Firefox */
+      background: #e256ac;
+  }
+
+  ::selection {
+      background: #e256ac;
+  }

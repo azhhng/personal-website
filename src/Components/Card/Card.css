@@ -1,0 +1,25 @@
+  /* ===== Card CSS ===== */
+
+  .card {
+      float: left;
+      padding: 10px 40px;
+      height: 250px;
+      width: 295px;
+      margin-top: 30px;
+      margin-right: 20px;
+      border: 1px solid #fff;
+  }
+
+  .card>.container>.card-title {
+      color: #ffffff;
+      text-align: center;
+  }
+
+  .card>.container>.tag-container>.tag {
+      color: #fff;
+      background-color: #25a72c;
+      float: left;
+      margin-right: 5px;
+      padding: 5px;
+      margin-bottom: 5px;
+  }
