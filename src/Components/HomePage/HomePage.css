@@ -1,7 +1,7 @@
   /* ===== HomePage CSS ===== */
 
   .home-container {
-    position: fixed;
+    position: absolute;
     margin-top: 10px;
     left: 50%;
     transform: translate(-50%, 0%);
