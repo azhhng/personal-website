@@ -122,3 +122,29 @@
   ::selection {
       background: #e256ac;
   }
+
+
+  /* ===== Scrollbar CSS ===== */
+
+  /* Firefox */
+
+  * {
+      scrollbar-width: thin;
+      scrollbar-color: rgb(255, 168, 222);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  *::-webkit-scrollbar {
+      width: 11px;
+  }
+
+  *::-webkit-scrollbar-track {
+      background: #ffffff00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+      background-color: rgb(255, 168, 222);
+      border-radius: 11px;
+      border: 0
+  }
