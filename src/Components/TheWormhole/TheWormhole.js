@@ -1,5 +1,7 @@
-import React from 'react'
-import './TheWormhole.css'
+import React from 'react';
+import './TheWormhole.css';
+import { Link } from 'react-router-dom';
+
 
 function Bookworms() {
     var open = false;
@@ -32,12 +34,12 @@ function Bookworms() {
                     {/* <li>When adding a book to one of your custom list, it is required that you add it to one of their 3 default lists first: Read, Want to Read, or Currently Reading. What if I want to make a list called "Books I Will Never Read"? I would be forced to put books in one of those three lists first, which defeats the purpose of my custom list.</li> */}
                 </ul>
             </div>
-            <h3>However, the BIGGEST reason I wanted to create a better book cataloguer was because Goodreads does not allow half-star ratings.</h3>
+            <h3>However, the biggest reason I wanted to create a better book cataloguer was because Goodreads does not allow half-star ratings.</h3>
             <div className="technologies-container">
                 <h3>Frontend: <span className="technology">React.js, Javascript, HTML & CSS</span></h3>
                 <h3>Backend: <span className="technology">PostgreSQL, Express.js, Node.js, Google Books API, Typescript, SQL</span></h3>
             </div>
-            <h3 className="next-link"><a href="/social-robots">Next Project(Social Robots) --&gt;</a></h3>
+            <h3 className="next-link"><Link to="/social-robots">Next Project(Social Robots) --&gt;</Link></h3>
         </div>
     )
 }

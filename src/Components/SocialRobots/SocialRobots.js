@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
-import './SocialRobots.css'
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './SocialRobots.css';
 
 function SocialRobots() {
     useEffect(() => {
@@ -51,7 +52,7 @@ function SocialRobots() {
                 <h3>&gt; Or you can check out our <a href="http://github.com/azhhng/social-robots">Github</a>.</h3>
                 <textarea className="NPC-box" id="prompt-box1" maxLength="1" spellCheck="false" defaultValue="> Have a good day!"></textarea>
             </div>
-            <h3 className="next-link"><a href="/the-wormhole">Next Project(The Wormhole) --&gt;</a></h3>
+            <h3 className="next-link"><Link to="/the-wormhole">Next Project(The Wormhole) --&gt;</Link></h3>
         </div>
     )
 }
