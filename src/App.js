@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import TheWormhole from './Components/TheWormhole/TheWormhole';
-import Header from './Components/Header/Header';
-import HomePage from './Components/HomePage/HomePage';
-import SocialRobots from './Components/SocialRobots/SocialRobots';
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import TheWormhole from "./Components/TheWormhole/TheWormhole";
+import Header from "./Components/Header/Header";
+import HomePage from "./Components/HomePage/HomePage";
+import SocialRobots from "./Components/SocialRobots/SocialRobots";
+import Spaceify from "./Components/Spaceify/Spaceify";
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
         <Header />
 
         <Switch>
-
           <Route exact path="/">
             <HomePage />
           </Route>
@@ -25,9 +24,10 @@ function App() {
             <TheWormhole />
           </Route>
 
-
+          <Route exact path="/spaceify">
+            <Spaceify />
+          </Route>
         </Switch>
-
       </div>
     </Router>
   );
