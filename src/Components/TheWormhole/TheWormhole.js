@@ -23,8 +23,10 @@ function Bookworms() {
         The Wormhole <span>(The name comes from the term 'bookworm').</span>
       </h2>
       <h3 className="links">
-        <a href="https://thewormhole.netlify.app/">Website</a> \\{" "}
-        <a href="http://github.com/azhhng/the-wormhole">Github</a>
+        <a href="https://thewormhole.herokuapp.com/">
+          Website Deployment Currently Work In Progress
+        </a>{" "}
+        \\ <a href="http://github.com/azhhng/the-wormhole">Github</a>
       </h3>
       <h3>I made The Wormhole since I was tired of using Goodreads.</h3>
       <div
@@ -76,7 +78,7 @@ function Bookworms() {
         </h3>
       </div>
       <h3 className="next-link">
-        <Link to="/social-robots">Next Project(Social Robots) --&gt;</Link>
+        <Link to="/spaceify">Next Project(Spaceify) --&gt;</Link>
       </h3>
     </div>
   );

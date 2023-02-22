@@ -23,6 +23,16 @@ function HomePage() {
       website: "https://thewormhole.netlify.app/",
       tags: "PostgreSQL,Express.js,React.js,Node.js,Google Books API",
     },
+    {
+      id: 3,
+      title: "Spaceify",
+      containerID: "spaceify-container",
+      description:
+        "A gallery showcasing NASA's astronomy photos (plus an ever-changing pick-and-match game).",
+      github: "https://github.com/azhhng/spaceify",
+      website: "https://spaceify.herokuapp.com/",
+      tags: "React.js, NASA API",
+    },
   ]);
 
   return (

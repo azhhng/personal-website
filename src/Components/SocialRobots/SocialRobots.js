@@ -75,8 +75,8 @@ function SocialRobots() {
       <div className="dialogue-box">
         <h3>&gt; Hey, I'm Slash!</h3>
         <h3>
-          &gt; If you want to know more about me, look at our{" "}
-          <a href="https://socialrobots.netlify.app/">website</a>.
+          &gt; Our website is a current work in progress after changes to
+          Heroku. Stay tuned for our deployment!
         </h3>
         <h3>
           &gt; Or you can check out our{" "}
