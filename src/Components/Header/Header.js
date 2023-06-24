@@ -23,6 +23,14 @@ const Header = () => {
         <a href="http://github.com/azhhng" target="_blank" rel="noreferrer">
           Github
         </a>{" "}
+        \\{" "}
+        <a
+          href="https://www.linkedin.com/in/azhhng/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>{" "}
         \\ <a href="mailto:mingg.zhang@mail.utoronto.ca">Email</a>
       </h2>
     </div>
