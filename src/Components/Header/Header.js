@@ -1,10 +1,15 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
+import flower from "./flower.svg";
 
 const Header = () => {
   return (
     <div className="header-container">
-      <h1> Hi, I'm Alice!</h1>
+      <div className="header-title">
+        <img src={flower} alt="ponyo" width={40} height={40} />{" "}
+        <h1> Hi, I'm Alice!</h1>
+      </div>
+
       <h2>
         <Link to="/">Home</Link> \\{" "}
         <a
