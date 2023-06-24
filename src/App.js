@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import HomePage from "./Components/HomePage/HomePage";
 import SocialRobots from "./Components/SocialRobots/SocialRobots";
 import Spaceify from "./Components/Spaceify/Spaceify";
+import Recipeboxd from "./Components/Recipeboxd/Recipeboxd";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
           <Route exact path="/spaceify">
             <Spaceify />
+          </Route>
+
+          <Route exact path="/recipeboxd">
+            <Recipeboxd />
           </Route>
         </Switch>
       </div>

@@ -5,26 +5,17 @@ import Card from "../Card/Card";
 function HomePage() {
   const [projects] = useState([
     {
-      id: 1,
-      title: "Social Robots",
-      containerID: "social-robot-container",
+      id: 4,
+      title: "Recipeboxd",
+      containerID: "recipe-box-container",
       description:
-        "An interactive game that teaches users about robot morality.",
-      github: "https://github.com/azhhng/social-robots",
-      website: "https://socialrobots.netlify.app/",
-      tags: "Express.js,React.js,Node.js",
+        "An online recipe book! Organize and store online recipe links.",
+      github: "https://github.com/azhhng/online-recipe-book-server",
+      website: "https://recipeboxd.vercel.app/",
+      tags: "PostgreSQL,React.js,Express.js, Node.js,Typescript",
     },
     {
       id: 2,
-      title: "The Wormhole",
-      containerID: "wormhole-container",
-      description: "A web app to rate, review, and catalogue your books.",
-      github: "https://github.com/azhhng/the-wormhole",
-      website: "https://thewormhole.netlify.app/",
-      tags: "PostgreSQL,Express.js,React.js,Node.js,Google Books API",
-    },
-    {
-      id: 3,
       title: "Spaceify",
       containerID: "spaceify-container",
       description:
@@ -50,9 +41,19 @@ function HomePage() {
           I love watching TV shows, movies and reading books. Some of my
           favorite TV shows are: Succession, The OA, The Haunting of Hill House.
           You can check out my favorite movies at{" "}
-          <a href="https://letterboxd.com/azhhng/">Letterboxd</a> and my
-          favorite books at{" "}
-          <a href="https://www.goodreads.com/user/show/93869060-alice">
+          <a
+            href="https://letterboxd.com/azhhng/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Letterboxd
+          </a>{" "}
+          and my favorite books at{" "}
+          <a
+            href="https://www.goodreads.com/user/show/93869060-alice"
+            target="_blank"
+            rel="noreferrer"
+          >
             Goodreads
           </a>
           .
