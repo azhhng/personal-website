@@ -12,11 +12,11 @@
   .header-container>h2 {
       font-size: 23px;
       text-align: center;
-      color: #fff;
+      color: #2c7853;
       font-weight: normal;
   }
 
   .header-container>h2>a {
-      color: rgb(255, 168, 222);
+      color: rgb(175, 74, 137);
       padding: 0px;
   }

@@ -5,7 +5,7 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       /* background: #911021; */
-      background: #004FF0;
+      background: #d6e6d8;
       cursor: default;
   }
 
@@ -26,11 +26,11 @@
 
   a {
       cursor: pointer;
-      color: rgb(255, 168, 222)
+      color: rgb(175, 74, 137)
   }
 
   a:hover {
-      background-color: #302747;
+      background-color: #fbbeeb;
       cursor: pointer;
   }
 
@@ -38,26 +38,26 @@
       font-family: monospace;
       letter-spacing: 2px;
       font-size: 35px;
-      color: #ffffff;
+      color: #2c7853;
       font-weight: normal;
   }
 
   h2 {
       font-size: 23px;
-      color: #fff;
+      color: #2c7853;
       letter-spacing: 1px;
       font-weight: normal;
   }
 
   h3 {
       font-size: 18px;
-      color: #fff;
+      color: #2c7853;
       letter-spacing: 0.5;
       font-weight: normal;
   }
 
   h4 {
-      color: #fff;
+      color: #2c7853;
       font-family: monospace;
       font-weight: normal;
       font-size: 16px;
@@ -74,7 +74,7 @@
 
   .project-container>.explanation-container>ul>li {
       font-family: Consolas;
-      color: #fff;
+      color: #2c7853;
       letter-spacing: 0.5;
       font-size: 18px;
   }
@@ -84,7 +84,7 @@
   }
 
   .project-container>.reason-container {
-      border: 1px solid #fff;
+      border: 1px solid #2c7853;
       padding: 1px 15px;
       line-height: 25px;
       cursor: pointer;
@@ -92,9 +92,9 @@
 
   .project-container>.explanation-container {
       padding: 4px 5px;
-      border: 1px solid #fff;
+      border: 1px solid #2c7853;
       line-height: 30px;
-      color: #fff;
+      color: #2c7853;
   }
 
   .project-container>.technologies-container>h3>span {
@@ -102,7 +102,7 @@
   }
 
   .project-container>.technologies-container>h3 {
-      background-color: rgb(255, 168, 222);
+      background-color: rgba(255, 255, 255, 0);
       color: rgb(70, 1, 1);
       padding: 6px 15px;
   }
@@ -130,7 +130,7 @@
 
   * {
       scrollbar-width: thin;
-      scrollbar-color: rgb(255, 168, 222);
+      scrollbar-color: rgb(175, 74, 137);
   }
 
   /* Chrome, Edge, and Safari */
@@ -144,7 +144,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-      background-color: rgb(255, 168, 222);
+      background-color: rgb(175, 74, 137);
       border-radius: 11px;
       border: 0
   }
