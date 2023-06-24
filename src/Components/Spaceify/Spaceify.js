@@ -7,8 +7,21 @@ function Spaceify() {
     <div className="project-container">
       <h2>Spaceify</h2>
       <h3 className="links">
-        <a href="https://spaceify.herokuapp.com/">Website</a> \\{" "}
-        <a href="http://github.com/azhhng/spaceify">Github</a>
+        <a
+          href="https://spaceify.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Website
+        </a>{" "}
+        \\{" "}
+        <a
+          href="http://github.com/azhhng/spaceify"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
       </h3>
       <h3>
         This web app was created using NASA's API to display astronomy photos. I
@@ -30,7 +43,7 @@ function Spaceify() {
         </h3>
       </div>
       <h3 className="next-link">
-        <Link to="/social-robots">Next Project(Social Robots) --&gt;</Link>
+        <Link to="/recipeboxd">Next Project(Recipeboxd) --&gt;</Link>
       </h3>
     </div>
   );

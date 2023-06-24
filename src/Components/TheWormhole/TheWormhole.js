@@ -23,10 +23,21 @@ function Bookworms() {
         The Wormhole <span>(The name comes from the term 'bookworm').</span>
       </h2>
       <h3 className="links">
-        <a href="https://thewormhole.herokuapp.com/">
+        <a
+          href="https://thewormhole.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Website Deployment Currently Work In Progress
-        </a>{" "}
-        \\ <a href="http://github.com/azhhng/the-wormhole">Github</a>
+        </a>
+        \\{" "}
+        <a
+          href="http://github.com/azhhng/the-wormhole"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
       </h3>
       <h3>I made The Wormhole since I was tired of using Goodreads.</h3>
       <div
@@ -68,7 +79,9 @@ function Bookworms() {
       <div className="technologies-container">
         <h3>
           Frontend:{" "}
-          <span className="technology">React.js, Javascript, HTML & CSS</span>
+          <span className="technology">
+            React.js, Javascript, HTML & CSS, Sass, Auth0 SDK
+          </span>
         </h3>
         <h3>
           Backend:{" "}

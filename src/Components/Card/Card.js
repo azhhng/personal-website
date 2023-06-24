@@ -24,7 +24,10 @@ function Card(props) {
         <h3 className="card-title">{props.card.title}</h3>
         <h3>{props.card.description}</h3>
         <h3>
-          <Link to={link}>About</Link> \\ <a href={props.card.github}>Github</a>
+          <Link to={link}>About</Link> \\{" "}
+          <a href={props.card.github} target="_blank" rel="noreferrer">
+            Github
+          </a>
         </h3>
         <div className="tag-container" id={props.card.containerID}></div>
       </div>
