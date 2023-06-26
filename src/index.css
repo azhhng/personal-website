@@ -118,11 +118,11 @@
 
   ::-moz-selection {
       /* Code for Firefox */
-      background: #e256ac;
+      background: #f7cbe5;
   }
 
   ::selection {
-      background: #e256ac;
+      background: #f7cbe5;
   }
 
 
