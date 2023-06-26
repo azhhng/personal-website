@@ -12,7 +12,7 @@ function HomePage() {
         "An online recipe book! Organize and store online recipe links.",
       github: "https://github.com/azhhng/online-recipe-book-server",
       website: "https://recipeboxd.vercel.app/",
-      tags: "PostgreSQL,React.js,Express.js, Node.js,Typescript",
+      tags: "PostgreSQL,React.js,Express.js, Node.ts,TypeScript",
     },
     {
       id: 2,

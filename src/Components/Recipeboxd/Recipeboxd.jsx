@@ -91,13 +91,13 @@ function Recipeboxd() {
         <h3>
           Frontend:{" "}
           <span className="technology">
-            React.js, Javascript, HTML & CSS, Sass, Auth0 SDK
+            React.js, JavaScript, HTML & CSS, Sass, Auth0 SDK
           </span>
         </h3>
         <h3>
           Backend:{" "}
           <span className="technology">
-            PostgreSQL, Express.js, Node.ts, Auth0, Typescript, SQL
+            PostgreSQL, Express.js, Node.ts, Auth0, TypeScript, SQL
           </span>
         </h3>
         <h3>

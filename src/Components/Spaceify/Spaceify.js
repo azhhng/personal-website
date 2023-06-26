@@ -38,7 +38,7 @@ function Spaceify() {
         <h3>
           Frontend:{" "}
           <span className="technology">
-            React.js, Javascript, HTML & CSS, NASA API
+            React.js, JavaScript, HTML & CSS, NASA API
           </span>
         </h3>
       </div>
