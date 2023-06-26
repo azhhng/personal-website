@@ -12,7 +12,7 @@ function HomePage() {
         "An online recipe book! Organize and store online recipe links.",
       github: "https://github.com/azhhng/online-recipe-book-server",
       website: "https://recipeboxd.vercel.app/",
-      tags: "PostgreSQL,React.js,Express.js, Node.ts,TypeScript",
+      tags: "PostgreSQL,React.js,Express.js,Node.ts,TypeScript",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ function HomePage() {
         "A gallery showcasing NASA's astronomy photos (plus an ever-changing pick-and-match game).",
       github: "https://github.com/azhhng/spaceify",
       website: "https://spaceify.netlify.com/",
-      tags: "React.js, NASA API",
+      tags: "React.js,NASA API",
     },
   ]);
 
