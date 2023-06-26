@@ -88,13 +88,15 @@
       padding: 1px 15px;
       line-height: 25px;
       cursor: pointer;
+      width: 800px;
   }
 
   .project-container>.explanation-container {
-      padding: 4px 5px;
+      padding: 1px 15px;
       border: 1px solid #2c7853;
       line-height: 30px;
       color: #2c7853;
+      width: 800px;
   }
 
   .project-container>.technologies-container>h3>span {
