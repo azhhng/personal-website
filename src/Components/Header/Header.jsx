@@ -1,12 +1,11 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import flower from "./flower.svg";
-
+import Emoji from "../Emoji/Emoji";
 const Header = () => {
   return (
     <div className="header-container">
       <div className="header-title">
-        <img src={flower} alt="ponyo" width={40} height={40} />{" "}
+        <Emoji name={"flower"} width={40} height={40} />{" "}
         <h1> Hi, I'm Alice!</h1>
       </div>
 

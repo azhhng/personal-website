@@ -13,6 +13,7 @@ function HomePage() {
       github: "https://github.com/azhhng/online-recipe-book-server",
       website: "https://recipeboxd.vercel.app/",
       tags: "PostgreSQL,React.js,Express.js,Node.ts,TypeScript",
+      emoji: "bento_box",
     },
     {
       id: 2,
@@ -23,6 +24,7 @@ function HomePage() {
       github: "https://github.com/azhhng/spaceify",
       website: "https://spaceify.netlify.com/",
       tags: "React.js,NASA API",
+      emoji: "ringed_planet",
     },
   ]);
 
