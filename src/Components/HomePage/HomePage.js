@@ -21,7 +21,7 @@ function HomePage() {
       description:
         "A gallery showcasing NASA's astronomy photos (plus an ever-changing pick-and-match game).",
       github: "https://github.com/azhhng/spaceify",
-      website: "https://spaceify.herokuapp.com/",
+      website: "https://spaceify.netlify.com/",
       tags: "React.js, NASA API",
     },
   ]);
