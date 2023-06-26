@@ -13,6 +13,10 @@
   .card>.container>.card-title {
       color: #2c7853;
       text-align: center;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      justify-content: center;
   }
 
   .card>.container>.tag-container>.tag {

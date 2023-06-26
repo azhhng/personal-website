@@ -1,6 +1,7 @@
 import "./Card.css";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Emoji from "../Emoji/Emoji";
 
 function Card(props) {
   var link = "/" + String(props.card.title).replace(/ /g, "-").toLowerCase();
@@ -17,7 +18,10 @@ function Card(props) {
   return (
     <div className="card">
       <div className="container">
-        <h3 className="card-title">{props.card.title}</h3>
+        <div className="card-title">
+          <Emoji name={props.card.emoji} width={25} height={25} />
+          <h3>{props.card.title}</h3>
+        </div>
         <h3>{props.card.description}</h3>
         <h3>
           <Link to={link}>About</Link> \\{" "}
