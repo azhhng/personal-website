@@ -1,20 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Recipeboxd.css";
 import { Link } from "react-router-dom";
 
 function Recipeboxd() {
-  var open = false;
+  const [display, setDisplay] = useState("none");
 
   const toggle = () => {
-    let container = document.getElementById("explanation-container");
-
-    if (open) {
-      container.style.display = "none";
-      open = false;
-      return;
+    if (display === "none") {
+      setDisplay("block");
+    } else {
+      setDisplay("none");
     }
-    open = true;
-    container.style.display = "block";
   };
 
   return (
@@ -65,7 +61,7 @@ function Recipeboxd() {
       <div
         className="explanation-container"
         id="explanation-container"
-        style={{ display: "none" }}
+        style={{ display: display }}
       >
         <ul>
           <li>
@@ -80,7 +76,6 @@ function Recipeboxd() {
             Recommendations for users based on their stored recipes and recipe
             boxes.
           </li>
-          {/* <li>When adding a book to one of your custom list, it is required that you add it to one of their 3 default lists first: Read, Want to Read, or Currently Reading. What if I want to make a list called "Books I Will Never Read"? I would be forced to put books in one of those three lists first, which defeats the purpose of my custom list.</li> */}
         </ul>
       </div>
       <h3>

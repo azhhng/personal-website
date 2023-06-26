@@ -1,22 +1,18 @@
 import "./Card.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Card(props) {
   var link = "/" + String(props.card.title).replace(/ /g, "-").toLowerCase();
-  var tags = String(props.card.tags).split(",");
+  const [tagComponents, setTagComponents] = useState([]);
 
   useEffect(() => {
-    let tagsList = document.getElementById([props.card.containerID]);
-
-    for (let i = 0; i < tags.length; i++) {
-      let tag = document.createElement("div");
-      tag.setAttribute("class", "tag");
-      tag.textContent = tags[i];
-
-      tagsList.appendChild(tag);
-    }
-  });
+    var tags = String(props.card.tags).split(",");
+    const components = tags.map((tag) => {
+      return <div className="tag">{tag}</div>;
+    });
+    setTagComponents(components);
+  }, [props]);
 
   return (
     <div className="card">
@@ -33,7 +29,9 @@ function Card(props) {
             Github
           </a>
         </h3>
-        <div className="tag-container" id={props.card.containerID}></div>
+        <div className="tag-container" id={props.card.containerID}>
+          {tagComponents}
+        </div>
       </div>
     </div>
   );

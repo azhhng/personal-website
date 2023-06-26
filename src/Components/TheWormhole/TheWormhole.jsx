@@ -1,20 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TheWormhole.css";
 import { Link } from "react-router-dom";
 
 function Bookworms() {
-  var open = false;
+  const [display, setDisplay] = useState("none");
 
   const toggle = () => {
-    let container = document.getElementById("explanation-container");
-
-    if (open) {
-      container.style.display = "none";
-      open = false;
-      return;
+    if (display === "none") {
+      setDisplay("block");
+    } else {
+      setDisplay("none");
     }
-    open = true;
-    container.style.display = "block";
   };
 
   return (
@@ -53,7 +49,7 @@ function Bookworms() {
       <div
         className="explanation-container"
         id="explanation-container"
-        style={{ display: "none" }}
+        style={{ display: display }}
       >
         <ul>
           <li>
