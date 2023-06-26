@@ -26,7 +26,7 @@ function Recipeboxd() {
           rel="noreferrer"
         >
           Website
-        </a>
+        </a>{" "}
         \\{" "}
         <a
           href="https://github.com/azhhng/online-recipe-book"
@@ -34,7 +34,7 @@ function Recipeboxd() {
           rel="noreferrer"
         >
           Github - Frontend
-        </a>
+        </a>{" "}
         \\{" "}
         <a
           href="https://github.com/azhhng/online-recipe-book-server"
@@ -78,10 +78,6 @@ function Recipeboxd() {
           </li>
         </ul>
       </div>
-      <h3>
-        However, the biggest reason I wanted to create a better book cataloguer
-        was because Goodreads does not allow half-star ratings.
-      </h3>
       <div className="technologies-container">
         <h3>
           Frontend:{" "}
