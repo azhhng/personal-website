@@ -27,7 +27,7 @@ function Card(props) {
           <Link to={link}>About</Link> \\{" "}
           <a href={props.card.website} target="_blank" rel="noreferrer">
             Website
-          </a>
+          </a>{" "}
           \\{" "}
           <a href={props.card.github} target="_blank" rel="noreferrer">
             Github
