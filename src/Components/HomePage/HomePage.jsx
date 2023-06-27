@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./HomePage.css";
 import Card from "../Card/Card";
+import Emoji from "../Emoji/Emoji";
 
 function HomePage() {
   const [projects] = useState([
@@ -35,7 +36,15 @@ function HomePage() {
           I am currently attending the Univeristy of Toronto as a computational
           cognition major, minoring in computer science.
         </h3>
-        <h3>I am an aspiring full-stack engineer :).</h3>
+        <div className="text-emoji">
+          <h3>I am an aspiring full-stack engineer</h3>
+          <Emoji
+            name={"smiling_face_with_smiling_eyes"}
+            width={25}
+            height={25}
+          />
+          <h3>.</h3>
+        </div>
       </div>
       <div className="left-container">
         <h3>I am a lover of all types of media.</h3>

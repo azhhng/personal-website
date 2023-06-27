@@ -5,3 +5,13 @@
     left: 50%;
     transform: translate(-50%, 0%);
   }
+
+  .text-emoji {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .text-emoji>img {
+    margin-left: 7px;
+  }
