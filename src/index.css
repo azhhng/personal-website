@@ -11,16 +11,22 @@
   .right-container {
       width: 800px;
       padding: 0px 20px;
+      margin-top: 20px;
   }
 
   .right-container>h3 {
       text-align: right;
+      margin: 0px;
   }
 
   .left-container {
-      margin-top: 30px;
       width: 800px;
       padding: 0px 20px;
+  }
+
+  .left-container>h3 {
+      margin: 0px;
+      margin-top: 20px;
   }
 
   a {
