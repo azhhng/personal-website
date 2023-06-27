@@ -32,10 +32,10 @@ function HomePage() {
     <div className="home-container">
       <div className="right-container">
         <h3>
-          I am currently attending the Univeristy of Toronto as a cognitive
-          science major with minors in computer science and statistics.
+          I am currently attending the Univeristy of Toronto as a computational
+          cognition major, minoring in computer science.
         </h3>
-        <h3>I am an aspiring full stack engineer :).</h3>
+        <h3>I am an aspiring full-stack engineer :).</h3>
       </div>
       <div className="left-container">
         <h3>I am a lover of all types of media.</h3>
