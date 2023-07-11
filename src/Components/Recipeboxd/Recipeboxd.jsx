@@ -69,6 +69,11 @@ function Recipeboxd() {
             make a recipe.
           </li>
           <li>
+            Creating a Google Chrome extension so users can easily add recipes
+            to their recipe boxes from external websites without having to
+            switch tabs.
+          </li>
+          <li>
             An explore page where users can browse other people's recipe boxes
             and recipes.
           </li>
