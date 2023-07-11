@@ -47,7 +47,6 @@ function HomePage() {
         </div>
       </div>
       <div className="left-container">
-        <h3>I am a lover of all types of media.</h3>
         <h3>
           I love watching TV shows, movies and reading books. Some of my
           favorite TV shows are: Succession, The OA, The Haunting of Hill House.
