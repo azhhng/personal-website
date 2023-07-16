@@ -87,7 +87,7 @@ function Recipeboxd() {
         <h3>
           Frontend:{" "}
           <span className="technology">
-            React.js, JavaScript, HTML & CSS, Sass, Auth0 SDK
+            React.js, JavaScript, HTML & CSS, Sass, Zustand, Auth0 SDK
           </span>
         </h3>
         <h3>
