@@ -1,7 +1,7 @@
   /* ===== Header CSS ===== */
 
   .header-container {
-      margin-top: 30px;
+      margin-top: 40px;
   }
 
   .header-container>.header-title {
@@ -26,4 +26,9 @@
   .header-container>h2>a {
       color: rgb(175, 74, 137);
       padding: 0px;
+  }
+
+  #profile-pic {
+      border-radius: 100px;
+      border: 2px solid #2c7853;
   }
