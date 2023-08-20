@@ -37,7 +37,7 @@ function HomePage() {
           cognition major, minoring in computer science.
         </h3>
         <div className="text-emoji">
-          <h3>I am an aspiring full-stack engineer</h3>
+          <h3>I am an aspiring back-end software engineer</h3>
           <Emoji
             name={"smiling_face_with_smiling_eyes"}
             width={25}
