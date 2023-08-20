@@ -1,34 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./HomePage.css";
 import Card from "../../Components/Card/Card";
 import Emoji from "../../Components/Emoji/Emoji";
+import projects from "../../Assets/Data/projects.json";
 
 function HomePage() {
-  const [projects] = useState([
-    {
-      id: 4,
-      title: "Recipeboxd",
-      containerID: "recipe-box-container",
-      description:
-        "An online recipe book! Organize and store online recipe links.",
-      github: "https://github.com/azhhng/online-recipe-book-server",
-      website: "https://recipeboxd.vercel.app/",
-      tags: "PostgreSQL,React.js,Express.js,Node.ts,TypeScript",
-      emoji: "bento_box",
-    },
-    {
-      id: 2,
-      title: "Spaceify",
-      containerID: "spaceify-container",
-      description:
-        "A gallery showcasing NASA's astronomy photos (plus an ever-changing pick-and-match game).",
-      github: "https://github.com/azhhng/spaceify",
-      website: "https://spaceify.netlify.com/",
-      tags: "React.js,NASA API",
-      emoji: "ringed_planet",
-    },
-  ]);
-
   return (
     <div className="home-container">
       <div className="right-container">
