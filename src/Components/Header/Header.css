@@ -2,36 +2,36 @@
 
   .header-container {
       margin-top: 40px;
-  }
-
-  .header-container>.header-title {
       display: flex;
       justify-content: center;
       align-items: center;
-      column-gap: 20px;
-  }
-
-  .header-container>.header-title>h1 {
-      text-align: center;
-      cursor: pointer;
-  }
-
-  .header-container>.header-links {
-      font-size: 23px;
-      text-align: center;
-      color: #2c7853;
-      font-weight: normal;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-  }
-
-  .header-container>.header-links>a {
-      color: rgb(175, 74, 137);
-      padding: 0px;
   }
 
   #profile-pic {
       border-radius: 100px;
       border: 2px solid #2c7853;
+  }
+
+  .header-container>.header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+
+  .header-container>.header-text>.header-title>h1 {
+      cursor: pointer;
+      margin: 10px 0px;
+  }
+
+  .header-container>.header-text>.header-links {
+      font-size: 20px;
+      color: #2c7853;
+      font-weight: normal;
+      display: flex;
+      gap: 10px;
+  }
+
+  .header-container>.header-text>.header-links>a {
+      color: rgb(175, 74, 137);
+      padding: 0px;
   }
