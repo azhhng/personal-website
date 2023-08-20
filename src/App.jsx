@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import TheWormhole from "./Components/TheWormhole/TheWormhole";
+import TheWormhole from "./Pages/TheWormhole/TheWormhole";
 import Header from "./Components/Header/Header";
-import HomePage from "./Components/HomePage/HomePage";
-import SocialRobots from "./Components/SocialRobots/SocialRobots";
-import Spaceify from "./Components/Spaceify/Spaceify";
-import Recipeboxd from "./Components/Recipeboxd/Recipeboxd";
+import HomePage from "./Pages/HomePage/HomePage";
+import SocialRobots from "./Pages/SocialRobots/SocialRobots";
+import Spaceify from "./Pages/Spaceify/Spaceify";
+import Recipeboxd from "./Pages/Recipeboxd/Recipeboxd";
 
 function App() {
   return (

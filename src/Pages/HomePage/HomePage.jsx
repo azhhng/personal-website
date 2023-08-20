@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./HomePage.css";
-import Card from "../Card/Card";
-import Emoji from "../Emoji/Emoji";
+import Card from "../../Components/Card/Card";
+import Emoji from "../../Components/Emoji/Emoji";
 
 function HomePage() {
   const [projects] = useState([
