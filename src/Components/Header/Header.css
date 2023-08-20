@@ -16,14 +16,17 @@
       cursor: pointer;
   }
 
-  .header-container>h2 {
+  .header-container>.header-links {
       font-size: 23px;
       text-align: center;
       color: #2c7853;
       font-weight: normal;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
   }
 
-  .header-container>h2>a {
+  .header-container>.header-links>a {
       color: rgb(175, 74, 137);
       padding: 0px;
   }

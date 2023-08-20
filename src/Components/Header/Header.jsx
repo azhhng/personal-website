@@ -32,29 +32,31 @@ const Header = () => {
         </h1>
       </div>
 
-      <h2>
-        <Link to="/">Home</Link> \\{" "}
+      <div className="header-links">
+        <Link to="/">Home</Link>
+        \\
         <a
           href="https://drive.google.com/file/d/1T_tXuDMo129WKmUNMH19XFe9HhyGPYkF/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
           Resume
-        </a>{" "}
-        \\{" "}
+        </a>
+        \\
         <a href="http://github.com/azhhng" target="_blank" rel="noreferrer">
           Github
-        </a>{" "}
-        \\{" "}
+        </a>
+        \\
         <a
           href="https://www.linkedin.com/in/azhhng/"
           target="_blank"
           rel="noreferrer"
         >
           LinkedIn
-        </a>{" "}
-        \\ <a href="mailto:mingg.zhang@mail.utoronto.ca">Email</a>
-      </h2>
+        </a>
+        \\
+        <a href="mailto:mingg.zhang@mail.utoronto.ca">Email</a>
+      </div>
     </div>
   );
 };
