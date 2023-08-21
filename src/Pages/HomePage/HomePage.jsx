@@ -3,10 +3,12 @@ import "./HomePage.css";
 import Card from "../../Components/Card/Card";
 import Emoji from "../../Components/Emoji/Emoji";
 import projects from "../../Assets/Data/projects.json";
+import Dropdown from "../../Components/Dropdown/Dropdown";
 
 function HomePage() {
   return (
     <div className="home-container">
+      <Dropdown />
       <div className="right-container">
         <h3>
           I am currently attending the Univeristy of Toronto as a computational

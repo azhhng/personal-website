@@ -68,6 +68,11 @@
       font-size: 16px;
   }
 
+  code {
+      color: #2c7853;
+      font-size: 16px;
+  }
+
   /* ===== Project Pages' CSS ===== */
 
   .project-container {
@@ -98,10 +103,12 @@
 
   .project-container>.explanation-container {
       padding: 1px 15px;
-      border: 1px solid #2c7853;
       line-height: 30px;
       color: #2c7853;
       width: 800px;
+      border-right: 1px solid #2c684b;
+      border-bottom: 1px solid #2c684b;
+      border-left: 1px solid #2c684b;
   }
 
   .project-container>.technologies-container>h3>span {
