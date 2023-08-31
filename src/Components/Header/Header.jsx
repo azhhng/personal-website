@@ -56,7 +56,7 @@ const Header = () => {
             LinkedIn
           </a>
           \\
-          <a href="mailto:mingg.zhang@mail.utoronto.ca">Email</a>
+          <a href="mailto:azhhng@gmail.com">Email</a>
         </div>
       </div>
     </div>
