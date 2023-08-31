@@ -40,7 +40,6 @@
   }
 
   h1 {
-      font-family: monospace;
       letter-spacing: 2px;
       font-size: 35px;
       color: #2c7853;
@@ -63,7 +62,6 @@
 
   h4 {
       color: #2c7853;
-      font-family: monospace;
       font-weight: normal;
       font-size: 16px;
   }
@@ -83,7 +81,6 @@
   }
 
   .project-container>.explanation-container>ul>li {
-      font-family: Consolas;
       color: #2c7853;
       letter-spacing: 0.5;
       font-size: 18px;

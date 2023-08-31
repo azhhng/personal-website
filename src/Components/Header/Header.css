@@ -34,4 +34,5 @@
   .header-container>.header-text>.header-links>a {
       color: rgb(175, 74, 137);
       padding: 0px;
+      letter-spacing: 1px;
   }
