@@ -35,7 +35,6 @@ const Header = () => {
         </div>
         <div className="header-links">
           <Link to="/">Home</Link>
-          \\
           <a
             href="https://drive.google.com/file/d/1T_tXuDMo129WKmUNMH19XFe9HhyGPYkF/view?usp=sharing"
             target="_blank"
@@ -43,11 +42,9 @@ const Header = () => {
           >
             Resume
           </a>
-          \\
           <a href="http://github.com/azhhng" target="_blank" rel="noreferrer">
             Github
           </a>
-          \\
           <a
             href="https://www.linkedin.com/in/azhhng/"
             target="_blank"
@@ -55,7 +52,6 @@ const Header = () => {
           >
             LinkedIn
           </a>
-          \\
           <a href="mailto:azhhng@gmail.com">Email</a>
         </div>
       </div>

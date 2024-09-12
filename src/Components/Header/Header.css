@@ -32,7 +32,14 @@
   }
 
   .header-container>.header-text>.header-links>a {
-      color: rgb(175, 74, 137);
-      padding: 0px;
+      color: rgb(255, 255, 255);
+      padding: 5px 10px;
       letter-spacing: 1px;
+      text-decoration: none;
+      background-color: #f4ab73;
+      border-radius: 5px;
+  }
+
+  .header-container>.header-text>.header-links>a:hover {
+      background-color: #dc8542;
   }
