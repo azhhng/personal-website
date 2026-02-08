@@ -9,16 +9,18 @@ import Recipeboxd from "./Pages/Recipeboxd/Recipeboxd";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="app-layout">
         <Header />
 
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/social-robots" element={<SocialRobots />} />
-          <Route path="/the-wormhole" element={<TheWormhole />} />
-          <Route path="/spaceify" element={<Spaceify />} />
-          <Route path="/recipeboxd" element={<Recipeboxd />} />
-        </Routes>
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/social-robots" element={<SocialRobots />} />
+            <Route path="/the-wormhole" element={<TheWormhole />} />
+            <Route path="/spaceify" element={<Spaceify />} />
+            <Route path="/recipeboxd" element={<Recipeboxd />} />
+          </Routes>
+        </main>
       </div>
     </Router>
   );

@@ -1,21 +1,22 @@
   /* ===== Header CSS ===== */
 
   .header-container {
-      margin-top: 40px;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 580px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-  }
-
-  #profile-pic {
-      border-radius: 100px;
-      border: 2px solid #2c7853;
   }
 
   .header-container>.header-text {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 80px;
   }
 
   .header-container>.header-text>.header-title>h1 {
@@ -28,18 +29,37 @@
       color: #2c7853;
       font-weight: normal;
       display: flex;
+      flex-direction: column;
       gap: 10px;
+      align-items: flex-start;
   }
 
   .header-container>.header-text>.header-links>a {
-      color: rgb(255, 255, 255);
+      color: #2c7853;
       padding: 3px 10px;
       letter-spacing: 1px;
       text-decoration: none;
-      background-color: #f4ab73;
       border-radius: 5px;
   }
 
   .header-container>.header-text>.header-links>a:hover {
       background-color: #dc8542;
+  }
+
+  /* ===== Mobile ===== */
+
+  @media (max-width: 768px) {
+      .header-container {
+          position: sticky;
+          width: 100%;
+          height: auto;
+          flex-direction: row;
+          padding: 15px 0;
+          background: #edf0e3;
+      }
+
+      .header-container>.header-text>.header-links {
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
   }

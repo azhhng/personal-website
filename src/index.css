@@ -6,10 +6,25 @@
       -moz-osx-font-smoothing: grayscale;
       background: #edf0e3;
       cursor: default;
+      margin: 0;
+  }
+
+  /* ===== App Layout ===== */
+
+  .app-layout {
+      display: flex;
+  }
+
+  .main-content {
+      margin-left: 280px;
+      flex: 1;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
   }
 
   .right-container {
-      width: 800px;
+      max-width: 800px;
       padding: 0px 20px;
       margin-top: 20px;
   }
@@ -20,7 +35,7 @@
   }
 
   .left-container {
-      width: 800px;
+      max-width: 800px;
       padding: 0px 20px;
   }
 
@@ -74,10 +89,10 @@
   /* ===== Project Pages' CSS ===== */
 
   .project-container {
-      position: absolute;
       margin-top: 10px;
-      left: 50%;
-      transform: translate(-50%, 0%);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   .project-container>.explanation-container>ul>li {
@@ -95,14 +110,16 @@
       padding: 1px 15px;
       line-height: 25px;
       cursor: pointer;
-      width: 800px;
+      max-width: 800px;
+      box-sizing: border-box;
   }
 
   .project-container>.explanation-container {
       padding: 1px 15px;
       line-height: 30px;
       color: #2c7853;
-      width: 800px;
+      max-width: 800px;
+      box-sizing: border-box;
       border-right: 1px solid #2c684b;
       border-bottom: 1px solid #2c684b;
       border-left: 1px solid #2c684b;
@@ -158,4 +175,16 @@
       background-color: rgb(175, 74, 137);
       border-radius: 11px;
       border: 0
+  }
+
+  /* ===== Mobile Layout ===== */
+
+  @media (max-width: 768px) {
+      .app-layout {
+          flex-direction: column;
+      }
+
+      .main-content {
+          margin-left: 0;
+      }
   }
