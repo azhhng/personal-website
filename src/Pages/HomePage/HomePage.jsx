@@ -25,9 +25,10 @@ function HomePage() {
       <div>
         <h3>
           I love watching TV shows, movies and reading books. Some of my
-          favorite TV shows are: Succession, The OA, The Haunting of Hill House.
-          You can check out my favorite movies at{" "}
+          favorite TV shows are: The X-Files, The OA, The Haunting of Hill
+          House. You can check out my favorite movies at{" "}
           <a
+            className="link-yellow"
             href="https://letterboxd.com/azhhng/"
             target="_blank"
             rel="noreferrer"
@@ -36,6 +37,7 @@ function HomePage() {
           </a>{" "}
           and my favorite books at{" "}
           <a
+            className="link-yellow"
             href="https://www.goodreads.com/user/show/93869060-alice"
             target="_blank"
             rel="noreferrer"

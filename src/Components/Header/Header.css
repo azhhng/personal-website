@@ -26,7 +26,7 @@
 
   .header-container>.header-text>.header-links {
       font-size: 20px;
-      color: #7ec8e3;
+      color: var(--text);
       font-weight: normal;
       display: flex;
       flex-direction: column;
@@ -35,7 +35,7 @@
   }
 
   .header-container>.header-text>.header-links>a {
-      color: #7ec8e3;
+      color: var(--text);
       padding: 3px 10px;
       letter-spacing: 1px;
       text-decoration: none;
@@ -43,7 +43,7 @@
   }
 
   .header-container>.header-text>.header-links>a:hover {
-      background-color: #1a2744;
+      background-color: var(--bg-hover);
   }
 
   /* ===== Mobile ===== */
@@ -55,7 +55,7 @@
           height: auto;
           flex-direction: row;
           padding: 15px 0;
-          background: #0a0e1a;
+          background: var(--bg);
       }
 
       .header-container>.header-text>.header-links {

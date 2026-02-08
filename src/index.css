@@ -1,10 +1,24 @@
+  /* ===== Colors ===== */
+
+  :root {
+      --bg: #4f1829;
+      --bg-card: #5c1e30;
+      --bg-card-hover: #6b2438;
+      --bg-hover: #7a2d43;
+      --bg-tag: #8a3550;
+      --text: #f2d4dc;
+      --text-accent: #e8a0b4;
+      --accent-yellow: #ffd54f;
+      --accent-pink: #ff4081;
+  }
+
   /* ===== Index CSS ===== */
 
   body {
       font-family: source-code-pro, Consolas, monospace;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      background: #0a0e1a;
+      background: var(--bg);
       cursor: default;
       margin: 0;
   }
@@ -47,43 +61,51 @@
 
   a {
       cursor: pointer;
-      color: #a8d8ea
+      color: var(--text-accent);
   }
 
   a:hover {
-      background-color: #1a2744;
+      background-color: var(--bg-hover);
       cursor: pointer;
+  }
+
+  a.link-yellow {
+      color: var(--accent-yellow);
+  }
+
+  a.link-pink {
+      color: var(--accent-pink);
   }
 
   h1 {
       letter-spacing: 2px;
       font-size: 35px;
-      color: #7ec8e3;
+      color: var(--text);
       font-weight: normal;
   }
 
   h2 {
       font-size: 23px;
-      color: #7ec8e3;
+      color: var(--text);
       letter-spacing: 1px;
       font-weight: normal;
   }
 
   h3 {
       font-size: 16px;
-      color: #7ec8e3;
+      color: var(--text);
       letter-spacing: 0.5;
       font-weight: normal;
   }
 
   h4 {
-      color: #7ec8e3;
+      color: var(--text);
       font-weight: normal;
       font-size: 16px;
   }
 
   code {
-      color: #7ec8e3;
+      color: var(--text);
       font-size: 16px;
   }
 
@@ -95,7 +117,7 @@
   }
 
   .project-container>.explanation-container>ul>li {
-      color: #7ec8e3;
+      color: var(--text);
       letter-spacing: 0.5;
       font-size: 18px;
   }
@@ -105,7 +127,7 @@
   }
 
   .project-container>.reason-container {
-      border: 1px solid #7ec8e3;
+      border: 1px solid var(--text);
       padding: 1px 15px;
       line-height: 25px;
       cursor: pointer;
@@ -116,21 +138,21 @@
   .project-container>.explanation-container {
       padding: 1px 15px;
       line-height: 30px;
-      color: #7ec8e3;
+      color: var(--text);
       max-width: 800px;
       box-sizing: border-box;
-      border-right: 1px solid #7ec8e3;
-      border-bottom: 1px solid #7ec8e3;
-      border-left: 1px solid #7ec8e3;
+      border-right: 1px solid var(--text);
+      border-bottom: 1px solid var(--text);
+      border-left: 1px solid var(--text);
   }
 
   .project-container>.technologies-container>h3>span {
-      color: #a8d8ea;
+      color: var(--text-accent);
   }
 
   .project-container>.technologies-container>h3 {
       background-color: rgba(255, 255, 255, 0);
-      color: #7ec8e3;
+      color: var(--text);
       padding: 6px 15px;
   }
 
@@ -143,11 +165,11 @@
 
   ::-moz-selection {
       /* Code for Firefox */
-      background: #1a2744;
+      background: var(--bg-hover);
   }
 
   ::selection {
-      background: #1a2744;
+      background: var(--bg-hover);
   }
 
 
@@ -157,7 +179,7 @@
 
   * {
       scrollbar-width: thin;
-      scrollbar-color: #a8d8ea;
+      scrollbar-color: var(--text-accent);
   }
 
   /* Chrome, Edge, and Safari */
@@ -171,7 +193,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-      background-color: #a8d8ea;
+      background-color: var(--text-accent);
       border-radius: 11px;
       border: 0
   }
