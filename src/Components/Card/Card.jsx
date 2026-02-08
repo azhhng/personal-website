@@ -1,10 +1,8 @@
 import "./Card.css";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import Emoji from "../Emoji/Emoji";
 
 function Card(props) {
-  var link = "/" + String(props.card.title).replace(/ /g, "-").toLowerCase();
   const [tagComponents, setTagComponents] = useState([]);
 
   useEffect(() => {
@@ -23,16 +21,14 @@ function Card(props) {
           <h3>{props.card.title}</h3>
         </div>
         <h3>{props.card.description}</h3>
-        <h3>
-          <Link to={link}>About</Link> \\{" "}
+        <div className="card-links">
           <a href={props.card.website} target="_blank" rel="noreferrer">
             Website
-          </a>{" "}
-          \\{" "}
+          </a>{" / "}
           <a href={props.card.github} target="_blank" rel="noreferrer">
             Github
           </a>
-        </h3>
+        </div>
         <div className="tag-container" id={props.card.containerID}>
           {tagComponents}
         </div>

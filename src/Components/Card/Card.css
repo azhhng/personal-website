@@ -1,29 +1,53 @@
   /* ===== Card CSS ===== */
 
   .card {
-      float: left;
-      padding: 5px 40px;
-      height: 280px;
-      width: 295px;
-      margin-top: 50px;
-      margin-right: 20px;
-      margin-bottom: 30px;
+      padding: 20px 25px;
+      margin-top: 25px;
+      border-radius: 8px;
+      background-color: #0f1525;
+      transition: border-color 0.2s ease, background-color 0.2s ease;
+  }
+
+  .card:hover {
+      border-color: #7ec8e3;
+      background-color: #131b2e;
   }
 
   .card>.container>.card-title {
       color: #7ec8e3;
-      text-align: center;
       display: flex;
       align-items: center;
       column-gap: 10px;
-      justify-content: center;
+      margin-bottom: 5px;
+  }
+
+  .card>.container>.card-title>h3 {
+      margin: 0;
+      font-size: 18px;
+  }
+
+  .card>.container>h3 {
+      margin: 8px 0;
+      line-height: 1.5;
+  }
+
+  .card>.container>.card-links {
+      margin-top: 12px;
+      color: #7ec8e3;
+  }
+
+  .card>.container>.tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
   }
 
   .card>.container>.tag-container>.tag {
-      color: #fff;
+      color: #a8d8ea;
       background-color: #1a3a5c;
-      float: left;
-      margin-right: 5px;
-      padding: 5px;
-      margin-bottom: 5px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: source-code-pro, Consolas, monospace;
   }
