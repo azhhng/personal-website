@@ -38,17 +38,6 @@
       max-width: 600px;
   }
 
-  .right-container {
-      max-width: 500px;
-      padding: 0px 20px;
-      margin-top: 20px;
-  }
-
-  .right-container>h3 {
-      text-align: right;
-      margin: 0px;
-  }
-
   .left-container {
       max-width: 500px;
       padding: 0px 20px;
@@ -71,10 +60,6 @@
 
   a.link-yellow {
       color: var(--accent-yellow);
-  }
-
-  a.link-pink {
-      color: var(--accent-pink);
   }
 
   h1 {

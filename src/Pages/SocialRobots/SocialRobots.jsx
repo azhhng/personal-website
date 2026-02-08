@@ -26,7 +26,7 @@ function SocialRobots() {
   return (
     <div className="project-container">
       <h2>Social Robots</h2>
-      <div className="right-container">
+      <div className="left-container">
         <h3>
           This project was made for PHL342: Mind and Machines. The instructor of
           the course allowed students to create an open-ended project that the
