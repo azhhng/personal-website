@@ -1,4 +1,8 @@
 import "./Header.css";
+import necktie from "../../Assets/Images/necktie.svg";
+import shortcake from "../../Assets/Images/shortcake.svg";
+import email from "../../Assets/Images/email.svg";
+import laptop from "../../Assets/Images/laptop.svg";
 
 const Header = () => {
   return (
@@ -13,9 +17,11 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <img src={shortcake} alt="" className="link-icon" />
             Resume
           </a>
           <a href="http://github.com/azhhng" target="_blank" rel="noreferrer">
+            <img src={laptop} alt="" className="link-icon" />
             Github
           </a>
           <a
@@ -23,9 +29,13 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
+            <img src={necktie} alt="" className="link-icon" />
             LinkedIn
           </a>
-          <a href="mailto:azhhng@gmail.com">Email</a>
+          <a href="mailto:azhhng@gmail.com">
+            <img src={email} alt="" className="link-icon" />
+            Email
+          </a>
         </div>
       </div>
     </div>

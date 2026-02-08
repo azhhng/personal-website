@@ -36,14 +36,24 @@
 
   .header-container>.header-text>.header-links>a {
       color: var(--text);
-      padding: 3px 10px;
+      padding: 6px 12px;
       letter-spacing: 1px;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background-color 0.2s ease, transform 0.2s ease;
   }
 
   .header-container>.header-text>.header-links>a:hover {
       background-color: var(--bg-hover);
+      transform: translateX(4px);
+  }
+
+  .link-icon {
+      width: 22px;
+      height: 22px;
   }
 
   /* ===== Mobile ===== */
