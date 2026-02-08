@@ -17,9 +17,11 @@ function Dropdown() {
         <h2>GET /alice/skills</h2>
       </div>
       <div className="dropdown-information" style={{ display: display }}>
-        <code>{`{
-          languages: ['Python', 'TypeScript', 'JavaScript', 'SQL', 'Sass', 'HTML and CSS', 'Java', 'R'], data: ['MySQL', 'PostgreSQL']
-        }`}</code>
+        <code>
+          languages: {"\n"}
+          {"\t"}['Python', 'TypeScript', 'JavaScript', 'SQL', 'Sass', 'HTML and
+          CSS', 'Java', 'R'], data: ['MySQL', 'PostgreSQL']
+        </code>
       </div>
     </div>
   );
