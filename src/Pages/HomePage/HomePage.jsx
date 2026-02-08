@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomePage.css";
 import Card from "../../Components/Card/Card";
-import Emoji from "../../Components/Emoji/Emoji";
 import projects from "../../Assets/Data/projects.json";
 
 function HomePage() {
