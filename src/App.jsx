@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TheWormhole from "./Pages/TheWormhole/TheWormhole";
 import Header from "./Components/Header/Header";
 import HomePage from "./Pages/HomePage/HomePage";
@@ -12,27 +12,13 @@ function App() {
       <div>
         <Header />
 
-        <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
-
-          <Route exact path="/social-robots">
-            <SocialRobots />
-          </Route>
-
-          <Route exact path="/the-wormhole">
-            <TheWormhole />
-          </Route>
-
-          <Route exact path="/spaceify">
-            <Spaceify />
-          </Route>
-
-          <Route exact path="/recipeboxd">
-            <Recipeboxd />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/social-robots" element={<SocialRobots />} />
+          <Route path="/the-wormhole" element={<TheWormhole />} />
+          <Route path="/spaceify" element={<Spaceify />} />
+          <Route path="/recipeboxd" element={<Recipeboxd />} />
+        </Routes>
       </div>
     </Router>
   );

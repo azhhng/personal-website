@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header-container">
       <div className="header-picture">
         <img
-          src={require(`../../Assets/Images/profile.jpg`).default}
+          src={require(`../../Assets/Images/profile.jpg`)}
           alt="ponyo"
           width={"120px"}
           height={"120px"}
