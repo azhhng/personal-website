@@ -9,17 +9,16 @@ function HomePage() {
     <div className="home-container">
       <div>
         <h3>
-          I am currently attending the Univeristy of Toronto as a computational
-          cognition major, minoring in computer science.
+          I am currently a backend software engineer at HubSpot working in the
+          strategic integrations group. We handle all things related to the
+          customer experience of any integrations/apps customers have installed.
         </h3>
         <div className="text-emoji">
-          <h3>I am an aspiring back-end software engineer</h3>
-          <Emoji
-            name={"smiling_face_with_smiling_eyes"}
-            width={25}
-            height={25}
-          />
-          <h3>.</h3>
+          <h3>
+            I attended the Univeristy of Toronto and graduated with an Honours
+            Bachelor of Science, studying as a computational cognition major,
+            minoring in computer science.
+          </h3>
         </div>
       </div>
       <div>
