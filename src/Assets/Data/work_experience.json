@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "HubSpot",
+    "containerID": "hubspot-container",
+    "role": "Software engineer",
+    "description": "Working in the strategic integrations group, working on all things related to integrations.",
+    "website": "https://www.hubspot.com/",
+    "techStack": "Java,Kafka,AWS SQS,SQL, Apache Pinot, Apache Spark",
+    "emoji": "tangerine"
+  },
+  {
+    "id": 2,
+    "title": "University of Toronto",
+    "containerID": "uoft-container",
+    "role": "Computational research assistant",
+    "description": "Volunteered at the Kang Lee Lab, helping engineer their data gathering websites.",
+    "website": "https://kangleelab.com/",
+    "tags": "Python,Django,React.js",
+    "emoji": "lab_coat"
+  },
+  {
+    "id": 3,
+    "title": "Blaise Transit",
+    "containerID": "blaise-container",
+    "role": "Software engineer intern",
+    "description": "Worked on the backend team, delivering any and all product needs for the frontend.",
+    "website": "https://www.blaisetransit.com/",
+    "tags": "React.js,Express.js,Node.ts,TypeScript",
+    "emoji": "oncoming_bus"
+  }
+]

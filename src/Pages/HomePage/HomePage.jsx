@@ -1,26 +1,39 @@
 import React from "react";
 import "./HomePage.css";
 import Card from "../../Components/Card/Card";
+import WorkCard from "../../Components/WorkCard/WorkCard";
+import CardScroll from "../../Components/CardScroll/CardScroll";
 import projects from "../../Assets/Data/projects.json";
+import workExperience from "../../Assets/Data/work_experience.json";
 
 function HomePage() {
   return (
     <div className="home-container">
-      <div>
+      <div className="home-section">
+        <p className="section-label">About</p>
         <h3>
           I am currently a backend software engineer at HubSpot working in the
           strategic integrations group. We handle all things related to the
           customer experience of any integrations/apps customers have installed.
         </h3>
-        <div className="text-emoji">
-          <h3>
-            I attended the Univeristy of Toronto and graduated with an Honours
-            Bachelor of Science, studying as a computational cognition major,
-            minoring in computer science.
-          </h3>
-        </div>
+        <h3>
+          I attended the Univeristy of Toronto and graduated with an Honours
+          Bachelor of Science, studying as a computational cognition major,
+          minoring in computer science.
+        </h3>
       </div>
-      <div>
+
+      <div className="home-section">
+        <p className="section-label">Experience</p>
+        <CardScroll count={workExperience.length}>
+          {workExperience.map((work) => (
+            <WorkCard key={work.id} card={work} />
+          ))}
+        </CardScroll>
+      </div>
+
+      <div className="home-section">
+        <p className="section-label">Interests</p>
         <h3>
           I love watching TV shows, movies and reading books. Some of my
           favorite TV shows are: The X-Files, The OA, The Haunting of Hill
@@ -45,14 +58,14 @@ function HomePage() {
           .
         </h3>
       </div>
-      <div>
-        <h3>
-          I also enjoy developing web applications in my spare time. You can see
-          some of them below.
-        </h3>
-        {projects.map((project) => (
-          <Card key={project.id} card={project} />
-        ))}
+
+      <div className="home-section">
+        <p className="section-label">Projects</p>
+        <CardScroll count={projects.length}>
+          {projects.map((project) => (
+            <Card key={project.id} card={project} />
+          ))}
+        </CardScroll>
       </div>
     </div>
   );

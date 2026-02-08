@@ -2,15 +2,51 @@
 
   .home-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
   }
 
-  .text-emoji {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin: 0;
-    padding: 0;
+  /* ===== Sections ===== */
+
+  .home-section {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(232, 160, 180, 0.15);
   }
 
+  .home-section:last-child {
+    border-bottom: none;
+  }
+
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-accent);
+    margin: 0 0 20px 0;
+  }
+
+  .home-section > h3 {
+    margin-top: 0;
+  }
+
+  /* ===== Horizontal Card Scroll ===== */
+
+  .card-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 4px 0;
+    scrollbar-width: none;
+  }
+
+  .card-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card-scroll > .card {
+    min-width: 340px;
+    max-width: 340px;
+    margin-top: 0;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }

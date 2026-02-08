@@ -16,7 +16,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding-left: 80px;
+      padding-left: 40px;
   }
 
   .header-container>.header-text>.header-title>h1 {
@@ -25,7 +25,7 @@
   }
 
   .header-container>.header-text>.header-links {
-      font-size: 20px;
+      font-size: 18px;
       color: var(--text);
       font-weight: normal;
       display: flex;
