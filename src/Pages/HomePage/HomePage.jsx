@@ -7,7 +7,7 @@ import projects from "../../Assets/Data/projects.json";
 function HomePage() {
   return (
     <div className="home-container">
-      <div className="right-container">
+      <div>
         <h3>
           I am currently attending the Univeristy of Toronto as a computational
           cognition major, minoring in computer science.
@@ -22,7 +22,7 @@ function HomePage() {
           <h3>.</h3>
         </div>
       </div>
-      <div className="left-container">
+      <div>
         <h3>
           I love watching TV shows, movies and reading books. Some of my
           favorite TV shows are: Succession, The OA, The Haunting of Hill House.
@@ -45,7 +45,7 @@ function HomePage() {
           .
         </h3>
       </div>
-      <div className="right-container">
+      <div>
         <h3>
           I also enjoy developing web applications in my spare time. You can see
           some of them below.

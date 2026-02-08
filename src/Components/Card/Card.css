@@ -11,7 +11,7 @@
   }
 
   .card>.container>.card-title {
-      color: #2c7853;
+      color: #7ec8e3;
       text-align: center;
       display: flex;
       align-items: center;
@@ -21,7 +21,7 @@
 
   .card>.container>.tag-container>.tag {
       color: #fff;
-      background-color: #25a72c;
+      background-color: #1a3a5c;
       float: left;
       margin-right: 5px;
       padding: 5px;

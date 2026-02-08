@@ -9,7 +9,7 @@
   .text-emoji {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     margin: 0;
     padding: 0;
   }
