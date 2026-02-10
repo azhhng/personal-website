@@ -14,7 +14,7 @@
     "title": "University of Toronto",
     "containerID": "uoft-container",
     "role": "Computational research assistant",
-    "description": "Rebuilt the lab's data collection platform from scratch, migrating to a modern React/Django stack with secure authentication.",
+    "description": "Rebuilt the lab's data collection platform, migrating to a modern React/Django stack.",
     "website": "https://kangleelab.com/",
     "tags": "Python,Django,React.js",
     "emoji": "lab_coat"
