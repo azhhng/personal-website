@@ -18,17 +18,16 @@ function WorkCard(props) {
       <div className="container">
         <div className="card-title">
           <Emoji name={props.card.emoji} width={25} height={25} />
-          <h3>{props.card.title}</h3>
+          <h3>
+            <a href={props.card.website} target="_blank" rel="noreferrer">
+              {props.card.title}
+            </a>
+          </h3>
         </div>
         <h4 style={{ margin: "0", color: "var(--text-accent)" }}>
           {props.card.role}
         </h4>
         <h3>{props.card.description}</h3>
-        <div className="card-links">
-          <a href={props.card.website} target="_blank" rel="noreferrer">
-            Website
-          </a>
-        </div>
         <div className="tag-container" id={props.card.containerID}>
           {tagComponents}
         </div>
