@@ -4,7 +4,7 @@
     "title": "HubSpot",
     "containerID": "hubspot-container",
     "role": "Software engineer",
-    "description": "Working in the strategic integrations group, working on all things related to integrations.",
+    "description": "Working on large-scale integrations infrastructure, connecting HubSpot with external platforms.",
     "website": "https://www.hubspot.com/",
     "techStack": "Java,Kafka,AWS SQS,SQL, Apache Pinot, Apache Spark",
     "emoji": "tangerine"
@@ -14,7 +14,7 @@
     "title": "University of Toronto",
     "containerID": "uoft-container",
     "role": "Computational research assistant",
-    "description": "Volunteered at the Kang Lee Lab, helping engineer their data gathering websites.",
+    "description": "Rebuilt the lab's data collection platform from scratch, migrating to a modern React/Django stack with secure authentication.",
     "website": "https://kangleelab.com/",
     "tags": "Python,Django,React.js",
     "emoji": "lab_coat"
@@ -24,7 +24,7 @@
     "title": "Blaise Transit",
     "containerID": "blaise-container",
     "role": "Software engineer intern",
-    "description": "Worked on the backend team, delivering any and all product needs for the frontend.",
+    "description": "Worked on the backend team, focusing on payment systems and helping clients manage their customer-facing options.",
     "website": "https://www.blaisetransit.com/",
     "tags": "React.js,Express.js,Node.ts,TypeScript",
     "emoji": "oncoming_bus"
