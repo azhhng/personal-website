@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap');
 
 :root {
-  --bg: #381923;
-  --bg-card: #45232e;
-  --bg-card-hover: #4d2935;
-  --bg-hover: #603242;
-  --bg-tag: #603242;
-  --text: #fff3ed;
-  --text-soft: #e0c8c8;
-  --text-muted: #c69fa8;
-  --text-accent: #f0b7ba;
-  --accent: #f2b9a6;
-  --accent-yellow: #ffd68c;
-  --accent-pink: #f2b9a6;
-  --border: rgba(255, 226, 220, .15);
-  --border-strong: rgba(255, 226, 220, .35);
+  --bg: #ffd5cb;
+  --bg-card: #ffebe5;
+  --bg-card-hover: #fff4ee;
+  --bg-hover: #edb7bc;
+  --bg-tag: #f8d3d2;
+  --text: #4c2834;
+  --text-soft: #6d4753;
+  --text-muted: #825463;
+  --text-accent: #973c68;
+  --accent: #a22f64;
+  --accent-yellow: #895016;
+  --accent-pink: #a22f64;
+  --border: rgba(99, 43, 61, .2);
+  --border-strong: rgba(99, 43, 61, .4);
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
