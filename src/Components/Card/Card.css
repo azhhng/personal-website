@@ -14,8 +14,10 @@
 .card-title a::after { content: " ↗"; color: var(--accent); font-size: 14px; }
 .card-role { margin: 8px 0 0 35px; color: var(--accent); font-size: 13px; }
 .card-description { margin: 15px 0 0; color: var(--text-soft); font-size: 14px; line-height: 1.65; }
-.card-links { margin-top: 13px; font-size: 13px; }
-.card-links a { color: var(--accent); text-underline-offset: 3px; }
+.card-links { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 18px; margin-top: 18px; font-size: 13px; }
+.card-links a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
+.card-links .website-link { padding: 8px 11px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-tag); color: var(--accent); text-decoration: none; }
+.card-links .website-link:hover { background: var(--bg-hover); color: var(--text); }
 .tag-container { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
 .tag {
   padding: 5px 8px;

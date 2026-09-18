@@ -10,6 +10,7 @@ function Card({ card }) {
       </div>
       <p className="card-description">{card.description}</p>
       <div className="card-links">
+        <a className="website-link" href={card.website} target="_blank" rel="noreferrer">View website ↗</a>
         <a href={card.github} target="_blank" rel="noreferrer">View code ↗</a>
       </div>
       <div className="tag-container">
