@@ -28,7 +28,7 @@
   line-height: 1.65;
 }
 .header-links { display: flex; flex-wrap: wrap; gap: 9px; }
-.header-links a {
+.header-links a, .header-links button {
   display: inline-flex;
   align-items: center;
   gap: 13px;
@@ -37,11 +37,18 @@
   border-radius: 6px;
   color: var(--text);
   font-size: 13px;
+  font-family: inherit;
   text-decoration: none;
+  background: transparent;
+  cursor: pointer;
   transition: background .2s, border-color .2s, transform .2s;
 }
 .header-links a span { color: var(--accent); }
-.header-links a:hover { background: var(--bg-card); border-color: var(--accent); transform: translateY(-2px); }
+.header-links button { gap: 9px; }
+.header-links button .email-address { color: var(--accent); }
+.header-links button .email-copy-status { color: var(--accent); font-size: 11px; }
+.header-links a:hover, .header-links button:hover { background: var(--bg-card); border-color: var(--accent); transform: translateY(-2px); }
+.header-links button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 @media (max-width: 900px) {
   .header-container { min-height: auto; position: static; padding: 72px 0 50px; }
 }
