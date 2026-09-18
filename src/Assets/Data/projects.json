@@ -3,20 +3,10 @@
     "id": 2,
     "title": "Annotary",
     "containerID": "annotary-container",
-    "description": "My fun take on a book log website. Pick three emojis to represent any book that you review.",
+    "description": "What do six books say about a person? Curate your shelf, guess who strangers are from theirs, and see how they read you.",
     "github": "https://github.com/azhhng/annotary",
-    "website": "https://annotary.vercel.app/",
-    "tags": "TypeScript, Auth0, Supabase, PostgreSQL, React",
+    "website": "https://annotary.space/",
+    "tags": "TypeScript, Expo, React Native, Supabase",
     "emoji": "books"
-  },
-  {
-    "id": 4,
-    "title": "Recipeboxd",
-    "containerID": "recipe-box-container",
-    "description": "An online recipe book! Organize and store online recipe links.",
-    "github": "https://github.com/azhhng/online-recipe-book-server",
-    "website": "https://recipeboxd.vercel.app/",
-    "tags": "PostgreSQL,React.js,Express.js,Node.ts,TypeScript",
-    "emoji": "bento_box"
   }
 ]

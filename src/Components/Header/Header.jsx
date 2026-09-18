@@ -1,45 +1,33 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
-import necktie from "../../Assets/Images/necktie.svg";
-import shortcake from "../../Assets/Images/shortcake.svg";
-import email from "../../Assets/Images/email.svg";
-import laptop from "../../Assets/Images/laptop.svg";
 
-const Header = () => {
-  return (
-    <div className="header-container">
-      <div className="header-text">
-        <div className="header-title">
-          <h1>Hey, I'm Alice!</h1>
-        </div>
-        <div className="header-links">
-          <a
-            href="https://drive.google.com/file/d/1T_tXuDMo129WKmUNMH19XFe9HhyGPYkF/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={shortcake} alt="" className="link-icon" />
-            Resume
+const links = [
+  { label: "Resume", href: "https://drive.google.com/file/d/1T_tXuDMo129WKmUNMH19XFe9HhyGPYkF/view?usp=sharing" },
+  { label: "GitHub", href: "https://github.com/azhhng" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/azhhng/" },
+  { label: "Email", href: "mailto:azhhng@gmail.com" },
+];
+
+const Header = () => (
+  <header className="header-container">
+    <div className="header-text">
+      <p className="header-kicker">Alice · Software engineer</p>
+      <Link className="header-title" to="/" aria-label="Alice, home">
+        <h1>Hey, I'm Alice<span className="title-mark">.</span></h1>
+      </Link>
+      <p className="header-intro">
+        I'm a software engineer based in Toronto. I like making things, reading
+        books, and hearing what other people are working on.
+      </p>
+      <nav className="header-links" aria-label="Connect with Alice">
+        {links.map(({ label, href }) => (
+          <a key={label} href={href} target={href.startsWith("mailto:") ? undefined : "_blank"} rel={href.startsWith("mailto:") ? undefined : "noreferrer"}>
+            {label}<span aria-hidden="true">↗</span>
           </a>
-          <a href="http://github.com/azhhng" target="_blank" rel="noreferrer">
-            <img src={laptop} alt="" className="link-icon" />
-            Github
-          </a>
-          <a
-            href="https://www.linkedin.com/in/azhhng/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={necktie} alt="" className="link-icon" />
-            LinkedIn
-          </a>
-          <a href="mailto:azhhng@gmail.com">
-            <img src={email} alt="" className="link-icon" />
-            Email
-          </a>
-        </div>
-      </div>
+        ))}
+      </nav>
     </div>
-  );
-};
+  </header>
+);
 
 export default Header;

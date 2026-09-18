@@ -2,71 +2,56 @@ import React from "react";
 import "./HomePage.css";
 import Card from "../../Components/Card/Card";
 import WorkCard from "../../Components/WorkCard/WorkCard";
-import CardScroll from "../../Components/CardScroll/CardScroll";
 import projects from "../../Assets/Data/projects.json";
 import workExperience from "../../Assets/Data/work_experience.json";
 
 function HomePage() {
   return (
     <div className="home-container">
-      <div className="home-section">
-        <p className="section-label">About</p>
-        <h3>
-          I am currently a backend software engineer at HubSpot working in the
-          strategic integrations group. We handle all things related to the
-          customer experience of any integrations/apps customers have installed.
-        </h3>
-        <h3>
-          I attended the Univeristy of Toronto and graduated with an Honours
-          Bachelor of Science, studying as a computational cognition major,
-          minoring in computer science.
-        </h3>
-      </div>
+      <section className="home-section" aria-labelledby="about-heading">
+        <h2 className="section-label" id="about-heading">01 / About</h2>
+        <div className="section-content about-copy">
+          <p>
+            I'm a backend software engineer at HubSpot, where I work on integrations
+            that help customers connect the tools they use every day.
+          </p>
+          <p>
+            I studied computational cognition and computer science at the
+            University of Toronto. I like work that brings careful engineering
+            and curiosity about people together.
+          </p>
+        </div>
+      </section>
 
-      <div className="home-section">
-        <p className="section-label">Experience</p>
-        <CardScroll count={workExperience.length}>
-          {workExperience.map((work) => (
-            <WorkCard key={work.id} card={work} />
-          ))}
-        </CardScroll>
-      </div>
+      <section className="home-section" aria-labelledby="elsewhere-heading">
+        <h2 className="section-label" id="elsewhere-heading">02 / Elsewhere</h2>
+        <div className="section-content about-copy">
+          <p>
+            Outside of code, I love stories in every form: books, films, and
+            slightly strange TV shows. I'm often knitting while I watch. The
+            X-Files and The OA are favorites.
+          </p>
+          <p className="elsewhere-links">
+            <a href="https://letterboxd.com/azhhng/" target="_blank" rel="noreferrer">Films on Letterboxd ↗</a>
+            <a href="https://www.goodreads.com/user/show/93869060-alice" target="_blank" rel="noreferrer">Books on Goodreads ↗</a>
+          </p>
+        </div>
+      </section>
 
-      <div className="home-section">
-        <p className="section-label">Interests</p>
-        <h3>
-          I love watching TV shows, movies and reading books. Some of my
-          favorite TV shows are: The X-Files, The OA, The Haunting of Hill
-          House. You can check out my favorite movies at{" "}
-          <a
-            className="link-yellow"
-            href="https://letterboxd.com/azhhng/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Letterboxd
-          </a>{" "}
-          and my favorite books at{" "}
-          <a
-            className="link-yellow"
-            href="https://www.goodreads.com/user/show/93869060-alice"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Goodreads
-          </a>
-          .
-        </h3>
-      </div>
+      <section className="home-section" aria-labelledby="experience-heading">
+        <h2 className="section-label" id="experience-heading">03 / Experience</h2>
+        <div className="section-content card-list">
+          {workExperience.map((work) => <WorkCard key={work.id} card={work} />)}
+        </div>
+      </section>
 
-      <div className="home-section">
-        <p className="section-label">Projects</p>
-        <CardScroll count={projects.length}>
-          {projects.map((project) => (
-            <Card key={project.id} card={project} />
-          ))}
-        </CardScroll>
-      </div>
+      <section className="home-section" aria-labelledby="projects-heading">
+        <h2 className="section-label" id="projects-heading">04 / Projects</h2>
+        <div className="section-content card-list">
+          {projects.map((project) => <Card key={project.id} card={project} />)}
+        </div>
+      </section>
+
     </div>
   );
 }

@@ -1,38 +1,19 @@
 import "../Card/Card.css";
-import React, { useEffect, useState } from "react";
 import Emoji from "../Emoji/Emoji";
 
-function WorkCard(props) {
-  const [tagComponents, setTagComponents] = useState([]);
-
-  useEffect(() => {
-    var tags = String(props.card.techStack || props.card.tags).split(",");
-    const components = tags.map((tag) => {
-      return <div className="tag">{tag}</div>;
-    });
-    setTagComponents(components);
-  }, [props]);
-
+function WorkCard({ card }) {
   return (
-    <div className="card">
-      <div className="container">
-        <div className="card-title">
-          <Emoji name={props.card.emoji} width={25} height={25} />
-          <h3>
-            <a href={props.card.website} target="_blank" rel="noreferrer">
-              {props.card.title}
-            </a>
-          </h3>
-        </div>
-        <h4 style={{ margin: "0", color: "var(--text-accent)" }}>
-          {props.card.role}
-        </h4>
-        <h3>{props.card.description}</h3>
-        <div className="tag-container" id={props.card.containerID}>
-          {tagComponents}
-        </div>
+    <article className="card">
+      <div className="card-title">
+        <Emoji name={card.emoji} width={25} height={25} />
+        <h3><a href={card.website} target="_blank" rel="noreferrer">{card.title}</a></h3>
       </div>
-    </div>
+      <p className="card-role">{card.role}</p>
+      <p className="card-description">{card.description}</p>
+      <div className="tag-container">
+        {(card.techStack || card.tags).split(",").map((tag) => <span className="tag" key={tag}>{tag.trim()}</span>)}
+      </div>
+    </article>
   );
 }
 
