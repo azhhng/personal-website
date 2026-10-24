@@ -4,7 +4,7 @@ import "./Header.css";
 
 const email = "azhhng@gmail.com";
 const links = [
-  { label: "Resume", href: "https://drive.google.com/file/d/1T_tXuDMo129WKmUNMH19XFe9HhyGPYkF/view?usp=sharing" },
+  { label: "Resume", href: "https://drive.google.com/file/d/1rVABAOs-g2SVUYgoKTeEcXlrXrmDdkt8/view?usp=sharing" },
   { label: "GitHub", href: "https://github.com/azhhng" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/azhhng/" },
 ];
