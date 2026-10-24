@@ -3,7 +3,7 @@
     "id": 1,
     "title": "HubSpot",
     "containerID": "hubspot-container",
-    "role": "Software engineer",
+    "role": "Senior software engineer I",
     "description": "Working on large-scale integrations infrastructure, connecting HubSpot with external platforms.",
     "website": "https://www.hubspot.com/",
     "techStack": "Java,Kafka,AWS SQS,SQL, Apache Pinot, Apache Spark",

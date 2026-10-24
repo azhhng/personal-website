@@ -9,13 +9,6 @@
   box-sizing: border-box;
 }
 .header-text { max-width: 420px; }
-.header-kicker {
-  color: var(--text-muted);
-  font-size: 12px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
-.header-kicker { margin: 0 0 22px; }
 .header-title { display: inline-block; text-decoration: none; }
 .header-title:hover { background: none; }
 .header-title h1 { margin: 0; }
@@ -54,6 +47,5 @@
 }
 @media (max-width: 600px) {
   .header-container { padding: 48px 0 36px; }
-  .header-kicker { margin-bottom: 14px; }
   .header-intro { margin: 18px 0 26px; font-size: 16px; }
 }

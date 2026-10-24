@@ -12,7 +12,7 @@ function HomePage() {
         <h2 className="section-label" id="about-heading">01 / About</h2>
         <div className="section-content about-copy">
           <p>
-            I'm a backend software engineer at HubSpot, where I work on integrations
+            I'm a software engineer at HubSpot, where I work on platform solutions
             that help customers connect the tools they use every day.
           </p>
           <p>
@@ -27,9 +27,9 @@ function HomePage() {
         <h2 className="section-label" id="elsewhere-heading">02 / Elsewhere</h2>
         <div className="section-content about-copy">
           <p>
-            Outside of code, I love stories in every form: books, films, and
-            slightly strange TV shows. I'm often knitting while I watch. The
-            X-Files and The OA are favorites.
+            Outside of code, I love stories in every form: books, podcasts,
+            films, and TV shows (especially reality TV). I'm often knitting
+            while I watch.
           </p>
           <p className="elsewhere-links">
             <a href="https://letterboxd.com/azhhng/" target="_blank" rel="noreferrer">Films on Letterboxd ↗</a>

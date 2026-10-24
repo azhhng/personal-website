@@ -24,7 +24,6 @@ const Header = () => {
   return (
   <header className="header-container">
     <div className="header-text">
-      <p className="header-kicker">Alice · Software engineer</p>
       <Link className="header-title" to="/" aria-label="Alice, home">
         <h1>Hey, I'm Alice<span className="title-mark">.</span></h1>
       </Link>
